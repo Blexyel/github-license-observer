@@ -234,7 +234,7 @@ function annotateProjectPage() {
   // The structure of the header is completely different depending on whether we
   // are logged in or not.
   let headerList =
-      document.querySelector(".AppHeader .AppHeader-context nav ul");
+      document.querySelector(".AppHeader .AppHeader-context nav");
   if (headerList) {
     // We are logged in
     const elt = document.createElement("li");
